@@ -59,3 +59,55 @@ export const stagingCountries = [
         baseUrl: 'https://logistics-st.foodora.no',
     },
 ];
+
+export const productionApCountries = [
+    {
+        code: 'sg',
+        baseUrl: 'https://logistics.foodora.sg',
+    },
+    {
+        code: 'hk',
+        baseUrl: 'https://logistics.foodora.hk',
+    },
+];
+
+export const productionEuCountries = [
+    {
+        code: 'at',
+        baseUrl: 'https://logistics.foodora.at',
+    },
+    {
+        code: 'de',
+        baseUrl: 'https://logistics.foodora.de',
+    },
+    {
+        code: 'nl',
+        baseUrl: 'https://logistics.foodora.nl',
+    },
+    {
+        code: 'no',
+        baseUrl: 'https://logistics.foodora.no',
+    },
+];
+
+export const productionUsCountries = [
+    {
+        code: 'ca',
+        baseUrl: 'https://logistics.foodora.ca',
+    },
+];
+
+export const qaCountries = [
+    {
+        code: 'xa',
+        baseUrl: 'https://logistics-xa.foodora.tech',
+    },
+    {
+        code: 'xb',
+        baseUrl: 'https://logistics-xb.foodora.tech',
+    },
+    {
+        code: 'xc',
+        baseUrl: 'https://logistics-xc.foodora.tech',
+    },
+];
