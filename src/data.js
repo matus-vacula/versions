@@ -43,21 +43,105 @@ export const applications = [
 
 export const stagingCountries = [
     {
+        code: 'ar',
+        baseUrl: 'https://logistics-st.foodora.com.ar',
+    },
+    {
         code: 'at',
         baseUrl: 'https://logistics-st.foodora.at',
     },
-    {
-        code: 'de',
-        baseUrl: 'https://logistics-st.foodora.de',
-    },
-    {
-        code: 'nl',
-        baseUrl: 'https://logistics-st.foodora.nl',
-    },
-    {
-        code: 'no',
-        baseUrl: 'https://logistics-st.foodora.no',
-    },
+    // {
+    //     code: 'au',
+    //     baseUrl: 'https://logistics-st.foodora.com.au',
+    // },
+    // {
+    //     code: 'bd',
+    //     baseUrl: 'https://logistics-st-bd.foodora.tech',
+    // },
+    // {
+    //     code: 'bh',
+    //     baseUrl: 'https://logistics-st-bh.foodora.tech',
+    // },
+    // {
+    //     code: 'ca',
+    //     baseUrl: 'https://logistics-st.foodora.ca',
+    // },
+    // {
+    //     code: 'cl',
+    //     baseUrl: 'https://logistics-st.foodora.com.cl',
+    // },
+    // {
+    //     code: 'co',
+    //     baseUrl: 'https://logistics-st-co.foodora.tech',
+    // },
+    // {
+    //     code: 'cz',
+    //     baseUrl: 'https://logistics-st-cz.foodora.tech',
+    // },
+    // {
+    //     code: 'de',
+    //     baseUrl: 'https://logistics-st.foodora.de',
+    // },
+    // {
+    //     code: 'fi',
+    //     baseUrl: 'https://logistics-st.foodora.fi',
+    // },
+    // {
+    //     code: 'fr',
+    //     baseUrl: 'https://logistics-st.foodora.fr',
+    // },
+    // {
+    //     code: 'hk',
+    //     baseUrl: 'https://logistics-st.foodora.hk',
+    // },
+    // {
+    //     code: 'it',
+    //     baseUrl: 'https://logistics-st.foodora.it',
+    // },
+    // {
+    //     code: 'kw',
+    //     baseUrl: 'https://logistics-st.foodora.com.kw',
+    // },
+    // {
+    //     code: 'my',
+    //     baseUrl: 'https://logistics-st.foodora.my',
+    // },
+    // {
+    //     code: 'nl',
+    //     baseUrl: 'https://logistics-st.foodora.nl',
+    // },
+    // {
+    //     code: 'no',
+    //     baseUrl: 'https://logistics-st.foodora.no',
+    // },
+    // {
+    //     code: 'ph',
+    //     baseUrl: 'https://logistics-st.foodora.co.ph',
+    // },
+    // {
+    //     code: 'qa',
+    //     baseUrl: 'https://logistics-st-qa.foodora.tech',
+    // },
+    // {
+    //     code: 'se',
+    //     baseUrl: 'https://logistics-st.foodora.se',
+    // },
+    // {
+    //     code: 'sg',
+    //     baseUrl: 'https://logistics-st.foodora.sg',
+    // },
+    // {
+    //     code: 'th',
+    //     baseUrl: 'https://logistics-st.foodora.co.th',
+    // },
+    // {
+    //     code: 'tw',
+    //     baseUrl: 'https://logistics-st.foodora.co.tw',
+    // },
+    // {
+    //     code: 'uy',
+    //     baseUrl: 'https://logistics-st.foodora.uy',
+    // },
 ];
 
 export const productionApCountries = [

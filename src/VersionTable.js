@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import VersionCell from "./VersionCell";
+import VersionCell from './VersionCell';
 
 class VersionTable extends Component {
     render() {
@@ -60,7 +60,13 @@ class VersionLoader {
             })
             .then((data) => {
                 console.log(data);
-                resolve(this.transformer(data));
+                resolve(dispatch({
+                    type: 'LOAD_VERSION_SUCCESSFUL',
+                    payload: {
+                        version: this.transformer(data),
+                        key: this.url,
+                    }
+                }));
             });
         });
     }

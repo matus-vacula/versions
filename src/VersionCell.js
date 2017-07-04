@@ -36,4 +36,5 @@ class VersionCell extends Component {
     }
 }
 
-export default VersionCell;
+
+export default connect(map)(VersionCell);
